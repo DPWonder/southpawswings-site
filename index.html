@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://i.ytimg.com">
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&family=Mona+Sans:wdth,wght@75..125,200..900&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Southpaw Swings","url":"https://southpawswings.com/","description":"Pro golf swings and lessons mirrored for left-handed golfers.","sameAs":["https://www.tiktok.com/@southpawswings","https://www.instagram.com/southpawswings/","https://www.youtube.com/@SouthPawSwingTV","https://x.com/southpawswingz"]}
+{"@context":"https://schema.org","@type":"Organization","name":"Southpaw Swings","url":"https://southpawswings.com/","email":"team@southpawswings.com","description":"Pro golf swings and lessons mirrored for left-handed golfers.","sameAs":["https://www.tiktok.com/@southpawswings","https://www.instagram.com/southpawswings/","https://www.youtube.com/@SouthPawSwingTV","https://x.com/southpawswingz"]}
 </script>
 <script>document.documentElement.classList.add('js')</script>
 <style>
@@ -252,6 +252,9 @@ section{position:relative}
 .b-top h2{font-size:var(--fs-impact);color:var(--sage)}
 .b-top h2 .bx{color:var(--moss);font-size:1.03em}
 .b-top p{max-width:27rem;color:var(--stone);margin:1.8rem 0 2rem}
+.b-top p.mailline{margin:1.1rem 0 0;font-size:1rem;color:var(--lichen)}
+.b-top p.mailline a{border-bottom:1px solid currentColor;padding-bottom:.1rem}
+.b-top p.mailline a:hover{color:var(--sage)}
 .collage{position:relative;aspect-ratio:1/1.02}
 .shot{position:absolute;display:block}
 .shot .cap{display:block;margin-bottom:.7rem;color:var(--lichen)}
@@ -281,6 +284,7 @@ section{position:relative}
 .cols ul a{font-size:1.875rem;font-weight:800;font-stretch:93%;text-transform:uppercase;line-height:1;letter-spacing:-.02em;transition:color .3s var(--ease)}
 .cols ul a:hover{color:var(--lime)}
 .cols p{font-size:.95rem;color:var(--stone);max-width:27rem;line-height:1.35}
+.cols p a{color:var(--sage);border-bottom:1px solid currentColor}
 .legal{display:flex;justify-content:space-between;gap:1rem;margin-top:clamp(3rem,6vw,5rem);padding-top:1rem;border-top:1px solid var(--tarmac);color:var(--lichen)}
 
 /* lightbox */
@@ -560,8 +564,12 @@ section{position:relative}
       <span class="eyebrow kicker"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 5h12v9H2zM5.5 5V3.5a2.5 2.5 0 0 1 5 0V5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>For brands</span>
       <h2><span class="ln"><span class="in sx">Your players, </span></span><span class="ln" style="--i:1"><span class="in sx">in front of </span></span><span class="ln" style="--i:2"><span class="in bx">lefties.</span></span></h2>
       <p class="rv" style="--i:3">Left-handed golfers are hard to reach and easy to delight. This is where they come to study the swing.</p>
-      <a class="btn rv" style="--i:4" id="contact" href="https://ig.me/m/southpawswings" target="_blank" rel="noopener">Message us on Instagram
-        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2v6a3 3 0 0 0 3 3h7M10 7.5l3.5 3.5L10 14.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+      <div class="cta rv" style="--i:4">
+        <a class="btn" id="contact" href="mailto:team@southpawswings.com">Email the team
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2v6a3 3 0 0 0 3 3h7M10 7.5l3.5 3.5L10 14.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+        <a class="textlink" href="https://ig.me/m/southpawswings" target="_blank" rel="noopener">Or on Instagram</a>
+      </div>
+      <p class="mailline rv" style="--i:5"><a href="mailto:team@southpawswings.com">team@southpawswings.com</a></p>
     </div>
     <div class="collage">
       <a class="shot s1 io" data-drift=".03" href="https://www.tiktok.com/@southpawswings/video/7708879384970579231" data-yt="yzP8XlF4tz0" data-cap="Phil Mickelson, chip lesson" data-title="The toe down chip" data-open="https://www.tiktok.com/@southpawswings/video/7708879384970579231" target="_blank" rel="noopener">
@@ -605,9 +613,10 @@ section{position:relative}
         <ul>
           <li><a href="#swing">Send your swing</a></li>
           <li><a href="#brands">Work with us</a></li>
+          <li><a href="mailto:team@southpawswings.com">Email us</a></li>
         </ul></div>
       <div><span class="eyebrow">Fine print</span>
-        <p>Pro golf swings and lessons, mirrored for left-handed golfers. Every clip credits its original creator. Not affiliated with any tour, player or brand. Rights holders: message us and we will take the clip down.</p></div>
+        <p>Pro golf swings and lessons, mirrored for left-handed golfers. Every clip credits its original creator. Not affiliated with any tour, player or brand. Rights holders: email <a href="mailto:team@southpawswings.com">team@southpawswings.com</a> and we will take the clip down.</p></div>
     </div>
     <div class="legal eyebrow"><span>Southpaw Swings, 2026</span><span>Made for the lefty on the range</span></div>
   </div>
