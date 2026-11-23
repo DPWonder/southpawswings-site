@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://southpawswings.com/sitemap.xml
